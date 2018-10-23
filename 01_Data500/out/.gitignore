@@ -29,3 +29,5 @@
 /pub_dc4.tif.aux.xml
 /pub_dc5.tif
 /pub_dc5.tif.aux.xml
+*.tif
+*.tif.aux.xml
