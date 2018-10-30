@@ -17,6 +17,18 @@ Data raster datafiles used in this package are not stored in this repository but
 
 The downloaded data should be stored in the subfolder: 01_Data500 (update if changed).
 
+| Parameter     | Processing    | Source    | License |
+|-----------    |------------   |--------   |---------|
+| Elevation     |               | European Environment Agency |         |
+| Slope         |               | European Environment Agency |         |
+| Land Quality  |               | European Environment Agency |
+| Protected Areas|              |           |         |
+| River Courses|                |Geofabrik|        |
+| Population density|           |CIESIN; JRC           |         |
+| Railways |               | Geofabrik          |         |
+| Highways |               | Geofabrik          |         |
+| Electricity Grid |               |           |         |
+
 ## Usage
 
 The package code is divided into two jupyter notebooks:
