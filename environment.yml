@@ -155,5 +155,5 @@ dependencies:
   - xz=5.2.4=h2fa13f4_4
   - zeromq=4.2.5=he025d50_1
   - zlib=1.2.11=h8395fce_2
-prefix: C:\Users\Kumar\Anaconda3\envs\gis
-
+  - pip:
+       - jenkspy
