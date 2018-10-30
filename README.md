@@ -19,7 +19,5 @@ pip install -r requirements.txt
 ## Usage
 
 
-
-
-Add explaination
-
+# License
+This repository is published under [MIT License](https://github.com/samarthiith/GIS-EU/blob/master/LICENSE)
