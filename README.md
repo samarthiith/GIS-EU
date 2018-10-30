@@ -14,9 +14,13 @@ pip install -r requirements.txt
 
 
 ## Data
+Data raster datafiles used in this package are not stored in this repository but provided seperately. --- insert information about downloading data ---
+
+The downloaded data should be stored in the subfolder: 01_Data500 (update if changed).
 
 
 ## Usage
+
 
 
 # License

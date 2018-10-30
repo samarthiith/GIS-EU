@@ -1,4 +1,4 @@
-name: gis
+name: gis_test
 channels:
   - defaults
 dependencies:
@@ -53,7 +53,7 @@ dependencies:
   - jsonschema=2.6.0=py36h7636477_0
   - jupyter_client=5.2.3=py36_0
   - jupyter_core=4.4.0=py36_0
-  - jupyterlab=0.35.1=py36_0
+  - jupyterlab=0.35.2=py36_0
   - jupyterlab_server=0.2.0=py36_0
   - kealib=1.4.7=ha5b336b_5
   - kiwisolver=1.0.1=py36h6538335_0
