@@ -19,15 +19,15 @@ The downloaded data should be stored in the subfolder: 01_Data500 (update if cha
 
 | Parameter     | Processing    | Source    | License |
 |-----------    |------------   |--------   |---------|
-| Elevation     |               | European Environment Agency |         |
-| Slope         |               | European Environment Agency |         |
-| Land Quality  |               | European Environment Agency |
-| Protected Areas|              |           |         |
-| River Courses|                |Geofabrik|        |
-| Population density|           |CIESIN; JRC           |         |
-| Railways |               | Geofabrik          |         |
-| Highways |               | Geofabrik          |         |
-| Electricity Grid |               |           |         |
+| Elevation     | Rasterization, Adjust Projection | [European Environment Agency](https://www.eea.europa.eu/data-and-maps/data/eu-dem) | policy based on Directive 2003/98/EC |
+| Slope         | Calculate slope, rasterize, adjust projection | [European Environment Agency](https://www.eea.europa.eu/data-and-maps/data/eu-dem) | policy based on Directive 2003/98/EC |
+| Land Quality  | Rate fields, rasterize, adjust projection | [European Environment Agency](https://www.eea.europa.eu/data-and-maps/data/eu-dem) | policy based on Directive 2003/98/EC |
+| Protected Areas| rasterize, adjust projection, assign values | ProtectedPlanet2018  | [WDPA Data Licence](https://www.unep-wcmc.org/policies/wdpa-data-licence#data_policy) |
+| River Courses| Extract data, assign values, rasterize |Geofabrik|  ODbL |
+| Population density| Rerasterize |CIESIN; JRC | policy based on Directive 2011/833/EU |
+| Railways |  Extract data, rasterize, assign values | Geofabrik          | ODbl        |
+| Highways |  Extract data, rasterize, assign values | Geofabrik          | ODbl        |
+| Electricity Grid | Extract data, rasterize, assign values | Geofabrik          | ODbl        |
 
 ## Usage
 
