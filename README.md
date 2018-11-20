@@ -32,10 +32,10 @@ The downloaded data should be stored in the subfolder: 01_Data500 (update if cha
 ## Usage
 
 The package code is divided into two jupyter notebooks:
-- [Least Path](https://github.com/samarthiith/GIS-EU/blob/master/leastPath.ipynb)
-    - This notebook is used for reading the raster data, combining them according to the factors considered and finally calculating the path. 
-- [AnalysisOfPath](https://github.com/samarthiith/GIS-EU/blob/master/AnalysisOfPath.ipynb)
-    - The paths created are analysed here. 
+- [01_DataPreparation](https://github.com/samarthiith/GIS-EU/blob/master/01_DataPreparation.ipynb)
+    - Data Preparation for path calculations 
+- [02_PathCreation](https://github.com/samarthiith/GIS-EU/blob/master/02_PathCreation.ipynb)
+- [03_Analysis](https://github.com/samarthiith/GIS-EU/blob/master/03_Analysis.ipynb)
 
 # License
 This repository is published under [MIT License](https://github.com/samarthiith/GIS-EU/blob/master/LICENSE)
