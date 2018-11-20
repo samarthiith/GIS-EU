@@ -13,9 +13,9 @@ conda create env -f  environment.yml
 ```
 
 ## Data
-Data raster datafiles used in this package are not stored in this repository but provided seperately. --- insert information about downloading data ---
+Data raster datafiles used in this package are not stored in this repository but would be provided seperately (pending licensing issues). The data used is rasterized with the resolution of 500m x 500m. 
 
-The downloaded data should be stored in the subfolder: 01_Data500 (update if changed).
+The downloaded data should be stored in the subfolder: 01_Data500.
 
 | Parameter     | Processing    | Source    | License |
 |-----------    |------------   |--------   |---------|
