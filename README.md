@@ -1,6 +1,11 @@
 # GIS-EU
 
 ## Motivation
+Development of electricity infrastructure is needed to for large scale integration of renewables. Several countries like Germany are facing challenges to grid development. Grid development requires extensive public deliberation and several factors need to be considered besides financial cost including environmental impact, public acceptance, current infrastructure etc. A large amount of GIS data required for this analysis exists however is scattered and spread out. Furthmore, to the best of our knowledge, no open-source package provides framework for analysing the cross impact of different factors on grid development. Here we provide a code base for analysing this cross impact.
+
+The accompanying **paper** detailing the analysis can be found here.
+
+The accompanying **data** can be found here.
 
 ## Installation
 It is highly recommended to create a anaconda environment to install the required packages and dependencies. Check out: [Ananconda Install](https://www.anaconda.com/download/) on instructions to install anaconda.
