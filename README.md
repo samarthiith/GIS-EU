@@ -1,6 +1,15 @@
 # GIS-EU
 
 ## Motivation
+Development of electricity infrastructure is needed to for large scale integration of renewables. Several countries like Germany are facing challenges to grid development. Grid development requires extensive public deliberation and several factors need to be considered besides financial cost including environmental impact, public acceptance, current infrastructure etc. A large amount of GIS data required for this analysis exists however is scattered and spread out. Furthmore, to the best of our knowledge, no open-source package provides framework for analysing the cross impact of different factors on grid development. Here we provide a code base for analysing this cross impact. 
+
+The accompanying **paper** detailing the analysis can be found here.
+
+The accompanying **data** can be found here.  
+
+## Framework
+
+(https://github.com/samarthiith/GIS-EU/blob/master/GGEF_Framework_v4.pdf)
 
 ## Installation
 It is highly recommended to create a anaconda environment to install the required packages and dependencies. Check out: [Ananconda Install](https://www.anaconda.com/download/) on instructions to install anaconda.
@@ -31,11 +40,19 @@ The downloaded data should be stored in the subfolder: 01_Data500 (update if cha
 
 ## Usage
 
-The package code is divided into two jupyter notebooks:
+The package code is divided into two jupyter notebooks: 
+
 - [01_DataPreparation](https://github.com/samarthiith/GIS-EU/blob/master/01_DataPreparation.ipynb)
-    - Data Preparation for path calculations 
+
+	Jupyter notebook for data preparation and visualization. 
+    
 - [02_PathCreation](https://github.com/samarthiith/GIS-EU/blob/master/02_PathCreation.ipynb)
+
+	Jupyter notebook for creating the paths based of different weighted combinations of the dimensions. 
+
 - [03_Analysis](https://github.com/samarthiith/GIS-EU/blob/master/03_Analysis.ipynb)
+
+	Jupyter notebook analysing the paths based on the criterions. 
 
 # License
 This repository is published under [MIT License](https://github.com/samarthiith/GIS-EU/blob/master/LICENSE)
