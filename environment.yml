@@ -1,4 +1,4 @@
-name: gis_test
+name: gis
 channels:
   - defaults
 dependencies:
